@@ -1,0 +1,7 @@
+scipy
+requests
+pandas
+lightgbm
+scikit-learn
+matplotlib
+git+https://github.com/c-bata/optuna.git@ws-cma-es
