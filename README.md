@@ -84,3 +84,9 @@ $ source venv/bin/activate
 (venv) $ python plot_result.png
 ```
 
+## Running on GitHub Actions.
+
+As I said, this benchmark requires 5-7 days so that it's computationally infeasible to run on GitHub Actions.
+But thanks to the amazing work of kurobako by @sile, we can use RF surrogate model to overcome this problem.
+
+See https://github.com/CyberAgent/cmaes/pull/99 for details to run benchmark using a surrogate model.
